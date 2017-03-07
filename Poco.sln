@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Poco", "Poco\Poco.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch2-Read-ini", "Ch2-Read-ini\Ch2-Read-ini.vcxproj", "{BC3704FE-5E80-4502-AA74-4009B2F78DEC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample-Dns", "Sample-Dns\Sample-Dns.vcxproj", "{3EF3B6E9-CC06-4846-B360-0371F563BF9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Release|x64.Build.0 = Release|x64
 		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Release|x86.ActiveCfg = Release|Win32
 		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Release|x86.Build.0 = Release|Win32
+		{3EF3B6E9-CC06-4846-B360-0371F563BF9A}.Debug|x64.ActiveCfg = Debug|x64
+		{3EF3B6E9-CC06-4846-B360-0371F563BF9A}.Debug|x64.Build.0 = Debug|x64
+		{3EF3B6E9-CC06-4846-B360-0371F563BF9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{3EF3B6E9-CC06-4846-B360-0371F563BF9A}.Debug|x86.Build.0 = Debug|Win32
+		{3EF3B6E9-CC06-4846-B360-0371F563BF9A}.Release|x64.ActiveCfg = Release|x64
+		{3EF3B6E9-CC06-4846-B360-0371F563BF9A}.Release|x64.Build.0 = Release|x64
+		{3EF3B6E9-CC06-4846-B360-0371F563BF9A}.Release|x86.ActiveCfg = Release|Win32
+		{3EF3B6E9-CC06-4846-B360-0371F563BF9A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
