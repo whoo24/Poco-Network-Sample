@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch3-IPAddresses", "Chp3-IPA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CH3-SocketAddress", "CH3-SocketAddress\CH3-SocketAddress.vcxproj", "{B7726685-153A-461F-AD39-EDF375719B6F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch3-NameResolution", "Ch3-NameResolution\Ch3-NameResolution.vcxproj", "{3E4F5A0A-DE16-4F70-B6E9-3693EE02C8BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{B7726685-153A-461F-AD39-EDF375719B6F}.Release|x64.Build.0 = Release|x64
 		{B7726685-153A-461F-AD39-EDF375719B6F}.Release|x86.ActiveCfg = Release|Win32
 		{B7726685-153A-461F-AD39-EDF375719B6F}.Release|x86.Build.0 = Release|Win32
+		{3E4F5A0A-DE16-4F70-B6E9-3693EE02C8BB}.Debug|x64.ActiveCfg = Debug|x64
+		{3E4F5A0A-DE16-4F70-B6E9-3693EE02C8BB}.Debug|x64.Build.0 = Debug|x64
+		{3E4F5A0A-DE16-4F70-B6E9-3693EE02C8BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E4F5A0A-DE16-4F70-B6E9-3693EE02C8BB}.Debug|x86.Build.0 = Debug|Win32
+		{3E4F5A0A-DE16-4F70-B6E9-3693EE02C8BB}.Release|x64.ActiveCfg = Release|x64
+		{3E4F5A0A-DE16-4F70-B6E9-3693EE02C8BB}.Release|x64.Build.0 = Release|x64
+		{3E4F5A0A-DE16-4F70-B6E9-3693EE02C8BB}.Release|x86.ActiveCfg = Release|Win32
+		{3E4F5A0A-DE16-4F70-B6E9-3693EE02C8BB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
