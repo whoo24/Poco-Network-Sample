@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Poco", "Poco\Poco.vcxproj", "{CD7CA40C-74B4-433D-BD3C-6BCEF50D424C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch2-Read-ini", "Ch2-Read-ini\Ch2-Read-ini.vcxproj", "{BC3704FE-5E80-4502-AA74-4009B2F78DEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{CD7CA40C-74B4-433D-BD3C-6BCEF50D424C}.Release|x64.Build.0 = Release|x64
 		{CD7CA40C-74B4-433D-BD3C-6BCEF50D424C}.Release|x86.ActiveCfg = Release|Win32
 		{CD7CA40C-74B4-433D-BD3C-6BCEF50D424C}.Release|x86.Build.0 = Release|Win32
+		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Debug|x64.ActiveCfg = Debug|x64
+		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Debug|x64.Build.0 = Debug|x64
+		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Debug|x86.Build.0 = Debug|Win32
+		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Release|x64.ActiveCfg = Release|x64
+		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Release|x64.Build.0 = Release|x64
+		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Release|x86.ActiveCfg = Release|Win32
+		{BC3704FE-5E80-4502-AA74-4009B2F78DEC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
