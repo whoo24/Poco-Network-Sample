@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch3-NameResolution", "Ch3-N
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch4-StreamSocketClass", "Ch4-StreamSocketClass\Ch4-StreamSocketClass.vcxproj", "{3E4C6DF0-39E0-4845-BB7A-009D418D10DF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch4-ServerSocketClass", "Ch4-ServerSocketClass\Ch4-ServerSocketClass.vcxproj", "{0169406E-08E6-4A3E-A9B6-CDC400025E5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{3E4C6DF0-39E0-4845-BB7A-009D418D10DF}.Release|x64.Build.0 = Release|x64
 		{3E4C6DF0-39E0-4845-BB7A-009D418D10DF}.Release|x86.ActiveCfg = Release|Win32
 		{3E4C6DF0-39E0-4845-BB7A-009D418D10DF}.Release|x86.Build.0 = Release|Win32
+		{0169406E-08E6-4A3E-A9B6-CDC400025E5E}.Debug|x64.ActiveCfg = Debug|x64
+		{0169406E-08E6-4A3E-A9B6-CDC400025E5E}.Debug|x64.Build.0 = Debug|x64
+		{0169406E-08E6-4A3E-A9B6-CDC400025E5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{0169406E-08E6-4A3E-A9B6-CDC400025E5E}.Debug|x86.Build.0 = Debug|Win32
+		{0169406E-08E6-4A3E-A9B6-CDC400025E5E}.Release|x64.ActiveCfg = Release|x64
+		{0169406E-08E6-4A3E-A9B6-CDC400025E5E}.Release|x64.Build.0 = Release|x64
+		{0169406E-08E6-4A3E-A9B6-CDC400025E5E}.Release|x86.ActiveCfg = Release|Win32
+		{0169406E-08E6-4A3E-A9B6-CDC400025E5E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
