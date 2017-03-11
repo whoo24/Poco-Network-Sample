@@ -35,6 +35,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch7-SimpleTcpServer", "Ch7-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch7-ChangeSettingTCPServer", "Ch7-ChangeSettingTCPServer\Ch7-ChangeSettingTCPServer.vcxproj", "{F64DEE72-1B2C-42EE-8CC4-140D48BBAD88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch8-ReactorEchoServer", "Ch8-ReactorEchoServer\Ch8-ReactorEchoServer.vcxproj", "{5B0612BD-EEA4-47D5-9FF5-FEB659261B9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch8-ReactorEchoServerEx", "Ch8-ReactorEchoServerEx\Ch8-ReactorEchoServerEx.vcxproj", "{13BD8AFD-38DD-43AA-A21D-829E95CF60FB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch8-ParallelreactorEchoServer", "Ch8-ParallelreactorEchoServer\Ch8-ParallelreactorEchoServer.vcxproj", "{E3208095-BDB7-4720-B7B3-D94858C352C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch8-ReactorEchoClient", "Ch8-ReactorEchoClient\Ch8-ReactorEchoClient.vcxproj", "{5F314719-FC3D-467F-979B-4D9498DAEE3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +179,38 @@ Global
 		{F64DEE72-1B2C-42EE-8CC4-140D48BBAD88}.Release|x64.Build.0 = Release|x64
 		{F64DEE72-1B2C-42EE-8CC4-140D48BBAD88}.Release|x86.ActiveCfg = Release|Win32
 		{F64DEE72-1B2C-42EE-8CC4-140D48BBAD88}.Release|x86.Build.0 = Release|Win32
+		{5B0612BD-EEA4-47D5-9FF5-FEB659261B9E}.Debug|x64.ActiveCfg = Debug|x64
+		{5B0612BD-EEA4-47D5-9FF5-FEB659261B9E}.Debug|x64.Build.0 = Debug|x64
+		{5B0612BD-EEA4-47D5-9FF5-FEB659261B9E}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B0612BD-EEA4-47D5-9FF5-FEB659261B9E}.Debug|x86.Build.0 = Debug|Win32
+		{5B0612BD-EEA4-47D5-9FF5-FEB659261B9E}.Release|x64.ActiveCfg = Release|x64
+		{5B0612BD-EEA4-47D5-9FF5-FEB659261B9E}.Release|x64.Build.0 = Release|x64
+		{5B0612BD-EEA4-47D5-9FF5-FEB659261B9E}.Release|x86.ActiveCfg = Release|Win32
+		{5B0612BD-EEA4-47D5-9FF5-FEB659261B9E}.Release|x86.Build.0 = Release|Win32
+		{13BD8AFD-38DD-43AA-A21D-829E95CF60FB}.Debug|x64.ActiveCfg = Debug|x64
+		{13BD8AFD-38DD-43AA-A21D-829E95CF60FB}.Debug|x64.Build.0 = Debug|x64
+		{13BD8AFD-38DD-43AA-A21D-829E95CF60FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{13BD8AFD-38DD-43AA-A21D-829E95CF60FB}.Debug|x86.Build.0 = Debug|Win32
+		{13BD8AFD-38DD-43AA-A21D-829E95CF60FB}.Release|x64.ActiveCfg = Release|x64
+		{13BD8AFD-38DD-43AA-A21D-829E95CF60FB}.Release|x64.Build.0 = Release|x64
+		{13BD8AFD-38DD-43AA-A21D-829E95CF60FB}.Release|x86.ActiveCfg = Release|Win32
+		{13BD8AFD-38DD-43AA-A21D-829E95CF60FB}.Release|x86.Build.0 = Release|Win32
+		{E3208095-BDB7-4720-B7B3-D94858C352C5}.Debug|x64.ActiveCfg = Debug|x64
+		{E3208095-BDB7-4720-B7B3-D94858C352C5}.Debug|x64.Build.0 = Debug|x64
+		{E3208095-BDB7-4720-B7B3-D94858C352C5}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3208095-BDB7-4720-B7B3-D94858C352C5}.Debug|x86.Build.0 = Debug|Win32
+		{E3208095-BDB7-4720-B7B3-D94858C352C5}.Release|x64.ActiveCfg = Release|x64
+		{E3208095-BDB7-4720-B7B3-D94858C352C5}.Release|x64.Build.0 = Release|x64
+		{E3208095-BDB7-4720-B7B3-D94858C352C5}.Release|x86.ActiveCfg = Release|Win32
+		{E3208095-BDB7-4720-B7B3-D94858C352C5}.Release|x86.Build.0 = Release|Win32
+		{5F314719-FC3D-467F-979B-4D9498DAEE3A}.Debug|x64.ActiveCfg = Debug|x64
+		{5F314719-FC3D-467F-979B-4D9498DAEE3A}.Debug|x64.Build.0 = Debug|x64
+		{5F314719-FC3D-467F-979B-4D9498DAEE3A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F314719-FC3D-467F-979B-4D9498DAEE3A}.Debug|x86.Build.0 = Debug|Win32
+		{5F314719-FC3D-467F-979B-4D9498DAEE3A}.Release|x64.ActiveCfg = Release|x64
+		{5F314719-FC3D-467F-979B-4D9498DAEE3A}.Release|x64.Build.0 = Release|x64
+		{5F314719-FC3D-467F-979B-4D9498DAEE3A}.Release|x86.ActiveCfg = Release|Win32
+		{5F314719-FC3D-467F-979B-4D9498DAEE3A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
