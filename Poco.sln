@@ -49,6 +49,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch9-HttpServer02", "Ch9-Htt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch9-HttpClient", "Ch9-HttpClient\Ch9-HttpClient.vcxproj", "{0B4B48B3-12F4-4394-8B55-9030D4782F77}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch10-WebSocketServer", "Ch10-WebSocketServer\Ch10-WebSocketServer.vcxproj", "{22314E30-7028-4420-A94D-4C305141ED0F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch10-WebSocketClient", "Ch10-WebSocketClient\Ch10-WebSocketClient.vcxproj", "{B6DB9F8E-B23B-4973-9247-C98CE0806192}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +245,22 @@ Global
 		{0B4B48B3-12F4-4394-8B55-9030D4782F77}.Release|x64.Build.0 = Release|x64
 		{0B4B48B3-12F4-4394-8B55-9030D4782F77}.Release|x86.ActiveCfg = Release|Win32
 		{0B4B48B3-12F4-4394-8B55-9030D4782F77}.Release|x86.Build.0 = Release|Win32
+		{22314E30-7028-4420-A94D-4C305141ED0F}.Debug|x64.ActiveCfg = Debug|x64
+		{22314E30-7028-4420-A94D-4C305141ED0F}.Debug|x64.Build.0 = Debug|x64
+		{22314E30-7028-4420-A94D-4C305141ED0F}.Debug|x86.ActiveCfg = Debug|Win32
+		{22314E30-7028-4420-A94D-4C305141ED0F}.Debug|x86.Build.0 = Debug|Win32
+		{22314E30-7028-4420-A94D-4C305141ED0F}.Release|x64.ActiveCfg = Release|x64
+		{22314E30-7028-4420-A94D-4C305141ED0F}.Release|x64.Build.0 = Release|x64
+		{22314E30-7028-4420-A94D-4C305141ED0F}.Release|x86.ActiveCfg = Release|Win32
+		{22314E30-7028-4420-A94D-4C305141ED0F}.Release|x86.Build.0 = Release|Win32
+		{B6DB9F8E-B23B-4973-9247-C98CE0806192}.Debug|x64.ActiveCfg = Debug|x64
+		{B6DB9F8E-B23B-4973-9247-C98CE0806192}.Debug|x64.Build.0 = Debug|x64
+		{B6DB9F8E-B23B-4973-9247-C98CE0806192}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6DB9F8E-B23B-4973-9247-C98CE0806192}.Debug|x86.Build.0 = Debug|Win32
+		{B6DB9F8E-B23B-4973-9247-C98CE0806192}.Release|x64.ActiveCfg = Release|x64
+		{B6DB9F8E-B23B-4973-9247-C98CE0806192}.Release|x64.Build.0 = Release|x64
+		{B6DB9F8E-B23B-4973-9247-C98CE0806192}.Release|x86.ActiveCfg = Release|Win32
+		{B6DB9F8E-B23B-4973-9247-C98CE0806192}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
